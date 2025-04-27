@@ -26,6 +26,10 @@ const reset = () => {
     winner.innerText = "";
 };
 
+const start = () => {
+    window.location.href = "index.html";
+};
+
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if (!turnO) {
