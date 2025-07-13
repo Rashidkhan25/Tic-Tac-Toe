@@ -16,6 +16,10 @@ const winPatterns = [
     [6,7,8],
 ];
 
+const start = () => {
+    window.location.href = "index.html";
+};
+
 const reset = () => {
     turnO = false;
     for(let box of boxes){

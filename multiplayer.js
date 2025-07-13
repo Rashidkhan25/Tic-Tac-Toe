@@ -20,16 +20,7 @@ const winPatterns = [
 ];
 
 const start = () => {
-    player1 = prompt("Player 1");
-    player2 = prompt("Player 2");
-    
-    turnO = false;
-    for(let box of boxes){
-        box.disabled = false;
-        box.style.backgroundColor = '#ffffff';
-        box.innerText = "";
-    }
-    winner.innerText = "";
+    window.location.href = "index.html";
 };
 
 const reset = () => {
